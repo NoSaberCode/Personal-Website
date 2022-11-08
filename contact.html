@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="CV, WORK EXPERIENCE, WORK, GRADUATED, PROJECTS, PROJECT, PROFILE, PORTFOLIO, UNIVERSITY, COLLEGE, 
+  CANADA, EXPERIENCE, SKILLS, EXTRA SKILLS, LANGAUAGES, IELTS">
+  <meta name="description" content="Online CV from a prospective candidate, graduated with Diploma in Computer Studies."> 
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="tabletstyle.css">
+  <link rel="stylesheet" href="phonestyle.css">
+  <style>
+    fieldset{
+        width: auto;
+        border: 2px ridge red;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    legend{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+    }
+    label{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+    }
+
+    </style>
+</head>
+
+<body>
+  <div class="wrapper">
+  <div class="body-nav">
+    <ul class="nav">
+      <li class="name">DUY KIEN NGUYEN </li>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="academic.html">ACADEMIC</a></li>
+      <li><a href="work_experience.html">WORK EXPERIENCE</a></li>
+      <li><a href="projects.html">PROJECTS</a></li>
+      <li><a href="extra_skills.html">EXTRA SKILLS</a> </li>
+      <li><a href="contact.html">CONTACT</a></li>  
+    </ul>
+  </div>
+
+      <header>
+        <p class = "tagname1">Get In Touch With Me</p>      
+      </header>
+     
+        <div class="main1">
+    
+        <p>I WOULD LOVE TO HEAR FROM YOU.</p>
+        <p>If you like my resume and would like to discuss future prospect with me. Or if you just would like to
+          make an acquaintance. Please do not be shy to contact me!!!
+        </p>
+    
+        <hr>
+        <div id="demo">
+        <h2>Have a question?</h2>
+        <form method="get">
+          <fieldset>
+              <legend>Use the form below. </legend>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname"> <br> <br>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname"> <br> <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"> <br> <br>
+          <label for="subject">Subject: </label>
+          <input type="text" id="subject" name="subject"> <br>
+          </fieldset>
+          <label for="comments">Your Message:</label> <br>
+          <textarea id="comments" name="comments" rows="4" cols="40"></textarea> <Br> <br>
+            <input type="submit" value="Send Message" class="button" 
+            onclick="myFunction()"> &nbsp;
+          <input type="reset" value="Reset" class="button">
+        </form>
+        </div>
+        <script>
+          function myFunction(){
+            document.getElementById("demo").innerHTML = "Thank you for contacting me!"
+          }
+        </script>
+
+
+
+        
+        </div>
+        
+        <footer>
+
+          <p>Phone number: 1111111111</p>
+      
+          <p class="email">Email:</p> <a href="mailto:duykien@nguyen.com">duykien@nguyen.com</a>
+          <p class="copyright">Copyright 2022| Duy Kien Nguyen</p>
+        </footer>
+</div>
+</body>
+</html>
